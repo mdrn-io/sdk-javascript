@@ -207,7 +207,7 @@ envelope), `redirected` (307), `contended` (every read bumps the version).
 
 ## Versions
 
-`0.3.0`, shared with the other languages (`sdk/VERSION`, `sdk/CHANGELOG.md`). All four SDKs
+`0.3.1`, shared with the other languages (`sdk/VERSION`, `sdk/CHANGELOG.md`). All four SDKs
 produce the same transcript against the same scenarios: `sdk/conformance/`.
 
 ## Contributing
