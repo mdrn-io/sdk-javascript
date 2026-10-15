@@ -1,0 +1,40 @@
+{
+  "name": "@mdrnio/sdk",
+  "version": "0.3.0",
+  "description": "The MDRN SDK for JavaScript: Database, Files, Mail and Auth from a Worker or Node.js, sign-in from the browser, with an in-memory fake for tests",
+  "license": "MIT",
+  "homepage": "https://mdrn.io/docs/sdk/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdrn-io/mdrn.git",
+    "directory": "sdk/javascript"
+  },
+  "type": "module",
+  "files": [
+    "src"
+  ],
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    },
+    "./fake": {
+      "types": "./src/fake.d.ts",
+      "default": "./src/fake.js"
+    },
+    "./browser": {
+      "types": "./src/browser.d.ts",
+      "default": "./src/browser.js"
+    }
+  },
+  "types": "./src/index.d.ts",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
